@@ -8,7 +8,7 @@ const navLinks = [
     title: "私たちについて",
   },
   {
-    id: "work",
+    id: "art",
     title: "アートの世界",
   },
   {
@@ -134,7 +134,7 @@ const socials = [
   },
 ];
 
-const sliderLists = [
+const allCocktails = [
   {
     id: 1,
     name: "クラシック・モヒート",
@@ -179,5 +179,5 @@ export {
   openingHours,
   storeInfo,
   socials,
-  sliderLists,
+  allCocktails,
 };

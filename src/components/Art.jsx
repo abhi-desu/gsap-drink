@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import { useGSAP } from "@gsap/react";
 import { featureLists, goodLists } from "../../constants";
 
-const Arts = () => {
+const Art = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
@@ -79,4 +79,4 @@ const Arts = () => {
     </div>
   );
 };
-export default Arts;
+export default Art;
